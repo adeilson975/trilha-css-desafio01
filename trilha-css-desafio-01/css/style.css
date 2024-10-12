@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Black.ttf');
+}
+h1 ,h2 ,p ,button{
+    font-family: Roboto;
+}
+
+
+/*banner do cabeçalho*/
+.banner {
+    width:100%;
+    height: 605px;
+    text-align: center;
+    color: #33A8DB;
+    background-color: rgba(5, 5, 44);
+    background-image: url('../assets/images/banner.png');
+    background-blend-mode: luminosity;
+    border-bottom: 1px solid #33A8DB ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*logo do cabeçalho*/
+.logo {
+    margin: 30px;
+}
+/*conteudo do banner*/
+.banner-content h1 {
+    font-weight:700;
+    margin: 20px;
+}
+.banner-content p {
+    color: white;
+    margin: 20px;
+}
+
+.banner-content button {
+    color:#33A8DB;
+    padding:15px 60px;
+    border: 3px solid #33A8DB;
+    background-color:rgba(0,0,0,0.4);
+    
+}
+/*conteudo principal curso*/
+#course-content {
+    text-align: center;
+    background-color: black;
+    padding:50px;
+    display: grid;
+    place-items: center;
+    border-bottom: 1px solid #33A8DB;
+}
+#course-content h2 {
+    color: #33A8DB;
+    text-transform: uppercase;
+    margin: 20px;
+}
+#course-content p {
+    color:#ffffff;
+    margin: 20px;
+}
+/*conteudo principal modulo*/
+.module {
+    width: 500px;
+    background-color:#3f3f3f;
+    border: 1px solid #33A8DB ;
+    color: #ffffff;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 40px;
+    
+   
+}
+span {
+    color: #33A8DB;
+}
+/*conteudo principal transforme o mundo*/
+#transform-world {
+    background-image: url('../assets/images/woman-code.png');
+    background-size:cover;
+    background-attachment: fixed;
+    top: 1138px;
+    width:100%;
+    height:100vh;
+    border-bottom: 1px solid #33A8DB ;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    
+    
+    
+}
+#transform-world p {
+    text-transform: lowercase;
+    font-size:40px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px #33A8DB;
+    position: relative;
+    left: 150px;
+}
+/*conteudo principal desafios profissionais*/
+#professional-challenges {
+    text-align: center;
+    border-bottom: 1px solid #33A8DB ;
+}
+#professional-challenges h2 {
+    color:#33A8DB;
+    margin-top:50px;
+}
+#professional-challenges p {
+    color: #ffffff;
+    padding:50px;
+    
+    
+}
+/*rodape*/
+footer {
+    text-align: center;
+    margin: 40px 0px 40px 0px;
+}
